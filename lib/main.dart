@@ -6,9 +6,6 @@ void main() {
   runApp(MyApp());
 }
 
-// int days = 30;
-// String name = 'junaid ';
-
 @override
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {

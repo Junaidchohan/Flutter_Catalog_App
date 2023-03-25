@@ -6,12 +6,17 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Center(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('CATALOG APP'),
+        centerTitle: true,
+      ),
+      body: Center(
         child: Container(
           child: Text('well come to $days day $name'),
         ),
       ),
+      drawer: Drawer(),
     );
   }
 }
