@@ -6,8 +6,8 @@ void main() {
   runApp(MyApp());
 }
 
-int days = 30;
-String name = 'junaid ';
+// int days = 30;
+// String name = 'junaid ';
 
 @override
 class MyApp extends StatelessWidget {
